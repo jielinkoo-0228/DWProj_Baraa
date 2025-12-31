@@ -1,0 +1,22 @@
+#### Questions to Data Source Experts
+
+## BRONZE LEVEL
+Goal: Solid foundation of business context, processes and ownership
+
+**Business Context & Ownership**
+1. Who is responsible for the data -- which IT Department?
+2. What business process does the data support? -- understanding the importance of your data
+3. Are there any systems and data documentation? -- learning materials about data
+4. Understanding the data model, data catalogues of data source -- obtain descriptions of columns and tables to understand how to join tables
+
+**Architecture & Technology Stack**
+1. How is the source system storing the data? -- on prem/ Cloud
+2. What are the integration capabilities
+
+**Extract & Load**
+1. Do an incremental or full load?
+2. Discussing data scope, and historical data needs -- history present in the source systems or include in data warehouse
+3. Expected size of extracts -- MD, GB, TB -- right tools and platforms to support & connect the source systems
+4. Any data volume limitations
+5. How to avoid impacting the source system's performance
+6. Authentication and Authorisation -- ho are we actually going to access the data in the source systems (tokens, keys, SSH, VPN, IP whitelisting)
